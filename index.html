@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Ball Game</title>
+    <style>
+       body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full height of the viewport */
+            overflow: hidden; /* Prevents scrollbars if canvas is larger than the screen */
+            background-color: antiquewhite;
+        }
+
+        canvas {
+            background: #9e9e9e;
+        }
+
+        .title{
+            margin-bottom: 30px;
+        }
+
+
+        #gameCanvas {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+<!-- <h3 class="title" >Bounce Ball</h3> -->
+
+<canvas id="gameCanvas"></canvas>
+
+<!-- Link to the external JavaScript file -->
+<script src="game.js"></script>
+
+</body>
+</html>
